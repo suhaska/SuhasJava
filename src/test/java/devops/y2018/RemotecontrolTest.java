@@ -19,6 +19,9 @@ public class RemotecontrolTest {
 		System.out.println("Implemented");
 	}
 	
-	
+	@Test
+	public void failedTest() {
+		assertTrue(false);
+	}
 }
 
